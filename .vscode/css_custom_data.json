@@ -40,6 +40,16 @@
           "url": "https://tailwindcss.com/docs/functions-and-directives#variants"
         }
       ]
+    },
+    {
+      "name": "@layer",
+      "description": "You can use the @layer directive to add styles to Tailwind’s base, components, and utilities layers:\n@layer base {\n  h1 {\n    @apply text-2xl;\n  }\n  h2 {\n    @apply text-xl;\n  }\n  /* ... */\n}",
+      "references": [
+        {
+          "name": "Tailwind Documentation",
+          "url": "https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer"
+        }
+      ]
     }
   ]
 }
