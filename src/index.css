@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply h-screen;
+    @apply bg-black;
+    @apply font-roboto;
+    @apply text-white;
+  }
+
+  #root {
+    @apply h-full;
+  }
+}
